@@ -1,0 +1,39 @@
+// MINE MIXINS FOR DE FORSKELLIGE ELEMENTER 
+
+// DE TRE H1'ER JEG HAR NÅR MAN VINDER ELLER TABER 
+@mixin GameHeadings {
+    position: absolute;
+    top: 35%; 
+    left: 45%; 
+    color: white;
+}
+
+// LOGIN OG REGISTER BUTTON 
+@mixin LogAndReg {
+  background-color: $hvidfarve; 
+  border: 1px solid $sortfarve;
+  color: $sortfarve;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+// LOGIN OG REGISTER BUTTON HOVER
+@mixin LogAndRegHover {
+    background-color: $hoverknap;
+}
+
+// LABEL OG CREATE ACCOUNT LINK STYLING 
+@mixin LabelAndC-link {
+    color: $hvidfarve;
+    font-size: $skriftTyve;
+}
+
+// REGLER OG RESULTAT DIV'ERNE STYLING 
+@mixin ResultAndRules {
+    background-color: #014421;
+    width: 360px;
+    border-radius: 12px;
+    padding: $skriftTyve 10px;
+}

@@ -1,0 +1,129 @@
+body {
+  background-image: url(images/gamebg.png);
+  background-size: cover; }
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand,
+.sr-only {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; }
+
+.overskriftLogin {
+  color: white; }
+
+.jumbotron {
+  margin-bottom: 2px;
+  background: rgba(51, 102, 51, 0.4); }
+
+label {
+  color: white;
+  font-size: 20px; }
+
+.createacc a {
+  color: white;
+  font-size: 20px; }
+
+.loginButton {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; }
+
+.loginButton:hover {
+  background-color: #e7e7e7; }
+
+.overskriftRegister {
+  color: white; }
+
+.registerButton {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; }
+
+.registerButton:hover {
+  background-color: #e7e7e7; }
+
+.score-display {
+  font-size: 22px;
+  margin-left: 22px; }
+
+#boxscore {
+  font-size: 22px;
+  margin-left: 22px; }
+
+#resultater {
+  background-color: #014421;
+  width: 360px;
+  border-radius: 12px;
+  padding: 20px 10px;
+  margin-top: 10px; }
+
+.spilleReglerH {
+  color: white;
+  margin-left: 22px; }
+
+.spilleRegler {
+  color: white;
+  font-size: 17px; }
+
+.reglerDiv {
+  background-color: #014421;
+  width: 360px;
+  border-radius: 12px;
+  padding: 20px 10px;
+  margin-top: 180px; }
+
+.play {
+  border: 1px solid; }
+
+#startgame {
+  border: 1px solid white;
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 250px;
+  color: white; }
+
+#stargame:hover {
+  color: white; }
+
+#spilnavn {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: white; }
+
+#vindertext {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: white; }
+
+#tabertext {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: white; }
+
+.score-display {
+  color: white; }
+
+#boxscore {
+  color: white; }
+
+.wrapper {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: red;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,136 @@
+// STANDARD
+* {
+	margin:0;
+	padding:0;
+}
+
+// BAGGRUNDSBILLEDE PÅ ALLE SIDER 
+body { 
+    background-image: url(images/gamebg.png);
+    background-size: cover;
+}
+
+// STYLING AF NAV BAR 
+.navbar-light .navbar-nav .nav-link,  
+.navbar-light .navbar-brand, 
+.sr-only{
+    color: $hvidfarve;
+    text-decoration: none;
+    font-size: $skriftTyve;
+}
+
+// --------------- LOGIN PAGE STYLING --------------- // 
+
+// LOGIN OVERSKRIFT FARVE 
+.overskriftLogin {
+    color: $hvidfarve;
+}
+
+// Jumbotron er en class i bootstrap, som angiver en stor boks med information 
+// Det forstørrer også skriftstørrelsen på teksten inde i den
+.jumbotron {
+    margin-bottom: 2px;
+    background: rgba(51, 102, 51, 0.1);
+}
+
+// LABEL STYLING 
+label {
+    @include LabelAndC-link; 
+}
+
+// STYLING AF "CREATE ACCOUNT" LINKET & "I HAVE AN ACCOUNT" 
+.createacc a {
+    @include LabelAndC-link; 
+}
+
+// STYLING AF LOGIN BUTTON 
+.loginButton {
+    @include LogAndReg; 
+
+}
+
+// LOGIN BUTTON HOVER
+.loginButton:hover {
+    @include LogAndRegHover; 
+}
+
+// --------------- REGISTER PAGE STYLING --------------- // 
+
+// REGISTER OVERSKRIFT FARVE 
+.overskriftRegister {
+    color: $hvidfarve;
+}
+
+// STYLING AF REGISTER BUTTON 
+.registerButton {
+  @include LogAndReg; 
+}
+
+// REGISTER BUTTON HOVER
+.registerButton:hover {
+    @include LogAndRegHover; 
+  }
+
+
+// --------------- GAME PAGE STYLING --------------- // 
+
+// De tre forskellige H'1ER SOM DISPLAYER NÅR MAN ENTEN VINDER, TABER ELLER TIDEN GÅR
+#spilnavn {
+    @include GameHeadings; 
+}
+#vindertext {
+    @include GameHeadings;
+}
+#tabertext {
+    @include GameHeadings;
+}
+
+// RESULTAT DIV SOM INDEHOLDER ANTAL LIV, TID OG BONES/POINT 
+#resultater {
+    @include ResultAndRules; 
+    margin-top: 10px;
+}
+
+// BONES DIV 
+#boxscore {
+    font-size: 22px; 
+    margin-left: 22px;
+}
+
+// SELVE REGEL DIV STYLING, MED BAGGRUNDSFARVE OSV 
+.reglerDiv{
+    @include ResultAndRules; 
+    margin-top: 180px;
+    font-family: "roboto";
+}
+
+// OVERSKRIFTEN I REGLER DIV 
+.spilleReglerH {
+    color: $hvidfarve;
+    margin-left: 22px;
+}
+
+// SELVE TEKSTEN SPILLEREGLER STYLING
+.spilleRegler {
+    color: $hvidfarve;
+    font-size: 17px;
+}
+
+// START GAME KNAPPEN STYLING
+#startgame {
+    border: 1px solid $hvidfarve;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 250px;
+    color: $hvidfarve;
+}
+
+// START GAME HOVER KNAP 
+#stargame:hover {
+    color: $hvidfarve;
+}
+
+// --------------- PROFILE PHP  --------------- // 
+
+// STYLING AF HVOR INFORMATIONEN SKAL
